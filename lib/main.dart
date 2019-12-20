@@ -19,7 +19,22 @@ class NinjaCard extends StatelessWidget {
         padding: EdgeInsets.fromLTRB(30.0, 40.0, 30.0, 0.0),
         child: Column(
           children: <Widget>[
-
+            Text(
+              'NAME',
+              style: TextStyle(
+                color: Colors.grey,
+                letterSpacing: 2.0,
+              ),
+            ),
+            Text(
+              'Chun-Li',
+              style: TextStyle(
+                color: Colors.amberAccent[200],
+                letterSpacing: 2.0,
+                fontSize: 28.0,
+                fontWeight: FontWeight.bold
+              ),
+            ),
           ],
         ),
       ),
