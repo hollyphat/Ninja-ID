@@ -10,6 +10,7 @@ class NinjaCard extends StatefulWidget {
 }
 
 class _NinjaCardState extends State<NinjaCard> {
+  int ninjaLevel = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -62,7 +63,7 @@ class _NinjaCardState extends State<NinjaCard> {
             ),
             SizedBox(height: 10.0,),
             Text(
-              '8',
+              '$ninjaLevel',
               style: TextStyle(
                   color: Colors.amberAccent[200],
                   letterSpacing: 2.0,
